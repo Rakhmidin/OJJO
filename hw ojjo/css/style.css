@@ -1,0 +1,136 @@
+header {
+    background-image: url(../images/bgc.png);
+    height: 950px;
+    background-position: center;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+  }
+  
+  .nav_link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  span {
+    color: yellow;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  
+  ul {
+    padding-left: 0;
+  }
+  
+  ul li {
+  
+    padding-right: 40px;
+  }
+  
+  
+  .top_line {
+    padding-top: 25px;
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .right_icons {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+  }
+  
+  .right_input {
+    background-color: transparent;
+    border: none;
+    width: 60px;
+    margin-right: 40px;
+    color: white;
+  }
+  
+  .right_link {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+  }
+  
+  /* p span {
+    color: yellow;
+  } */
+  .span_in_p {
+    color: yellow;
+  }
+  
+  .first_link {
+    width: 50%;
+    margin: 30px 0;
+    display: inline;
+    text-decoration: none;
+  }
+  
+  
+  
+  .class1.active.new_class {
+    opacity: .5;
+  }
+  
+  .box {
+    display: flex;
+    justify-content: space-between;
+    height: 1000px;
+    background-color: #000;
+    /* align-items: center; */
+  }
+  
+  .mini_box {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+  
+  .top_right {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .middle_line h1 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #FFFFFF;
+  
+  }
+  
+  .middle_line button {
+    display: block;
+    width: 261px;
+    height: 51px;
+    background: #333333;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+  }
+  .middle_line {
+    padding-top: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #000;
+  }
